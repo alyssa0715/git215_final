@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Rivulet Peak Resort | Contact</title>
+
+        <meta name="description" content="Contact page for a resort in the Swiss Alps.">
+        <meta name="author" content="Alyssa Chavez">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body class="contact">
+        <header>
+            <section>
+            <h1>
+                <a href="index.html">Rivulet Peak Resort</a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#accommodations">Accommodations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            </section>
+            <img src="images/swiss-valley.jpg" alt="A valley in the middle of the Swiss mountains with a green forrest and river." width="1440" height="560">
+        </header>
+
+        <main>
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+                Required fields marked with a <span class="required">*</span></p>
+                <img src="images/swiss-peak.jpg" alt="A mountain peak in the the Swiss Alps with a green forrest surround it." width="350" height="455">
+
+                <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+                    <label for="my-name">Full Name<span class="required"> *</span></label>
+                    <input type="text" name="my-name" id="my-name" required>
+
+                    <label for="my-email">Email<span class="required"> *</span></label>
+                    <input type="text" name="my-email" id="my-email" required>
+
+                    <label for="my-phone">Phone Number<span class="required"> *</span></label>
+                    <input type="number" name="my-phone" id="my-phone" required>
+
+                    <fieldset>
+                        <legend>Preferred Contact Method<span class="required"> *</span></legend>
+				        <input type="radio" id="pref-email" name="contact-pref" required>
+				        <label for="pref-email">Email</label>
+				
+				        <input type="radio" id="pref-phone" name="contact-pref" required>
+				        <label for="pref-phone">Phone</label>
+                    </fieldset>
+                    
+                    <label for="my-comments">Comments<span class="required"> *</span></label>
+                    <textarea name="my-comments" id="my-comments" required></textarea>
+
+                    <input type="Submit" value="Submit" id="my-submit">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright ©2023 - Rivulet Peak Resort</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
